@@ -1,7 +1,7 @@
 *
 {
   box-sizing: border-box;
-  margin: 20px;
+  margin: 5px 15px 5px 15px;
   padding: 0;
   background-color: LightGrey;
   text-align: justify;
@@ -26,6 +26,11 @@ header {
   cursor: pointer;
   margin-right: auto;
   height: 80px;
+}
+
+.nav {
+  display:flex;
+  wrap:no-wrap;
 }
 
 .nav_links {
