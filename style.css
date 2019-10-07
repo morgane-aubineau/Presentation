@@ -8,10 +8,13 @@
 }
 
 li, a, button {
-  font-family: "Arial",verdana, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-family: Arial,verdana, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
   color:Teal;
+  border: 1px solid Teal;
+  margin: 0.5em;
+  border: 0.5em;
   text-decoration:none;
 }
 
