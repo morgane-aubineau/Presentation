@@ -3,8 +3,6 @@
   box-sizing: border-box;
   margin: 5px 20px 5px 20px;
   padding: 0;
-  font-family: Tahoma, Geneva, sans-serif;
-  font-weight: normal;
   background-color: LightGrey;
   text-align: justify;
   line-height: 0.9;
@@ -25,8 +23,9 @@ header {
   align-items: center;
   padding: 0.5em;
   margin: 0.5em;
-  background-color: CornFlowerBlue;
+  background-color: LightSlateGray;
   border-bottom: 10px;
+  border-radius: 20px;
 }
 
 .logo {
