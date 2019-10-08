@@ -16,7 +16,6 @@ li, a {
   border: 2px solid Teal;
   border-radius: 20px;
   margin: 0.5em;
-  border: 0.5em;
   text-decoration:none;
 }
 
@@ -36,10 +35,9 @@ header {
 
 .nav {
   display:flex;
-  wrap:no-wrap;
-  background-color: LightSlateGrey;
+  flex-wrap: nowrap;
+  background-color: CornFlowerBlue;
   border-bottom: 10px;
-
 }
 
 .nav_links {
@@ -49,7 +47,6 @@ header {
 .nav_links li {
   display: inline-block;
   padding: 0px 20px;
-  width:60%;
 }
 
 .nav_links li a {
@@ -57,13 +54,14 @@ header {
 }
 
 .nav_links li a:hover {
-  color: Green;
+  color: SpringGreen;
 }
 
 p
 {
   color: black;
   margin:10%
+  line-height:1;
 }
 
 .abstract
@@ -96,4 +94,3 @@ h2
   font-weight:bold;
   text-decoration:underline;
 }
-
