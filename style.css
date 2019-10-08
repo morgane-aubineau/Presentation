@@ -3,14 +3,14 @@
   box-sizing: border-box;
   margin: 5px 20px 5px 20px;
   padding: 0;
-  background-color: LightGrey;
-  text-align: justify;
-  line-height: 1.3;
-}
-
-li, a {
   font-family: Tahoma, Geneva, sans-serif;
   font-weight: normal;
+  background-color: LightGrey;
+  text-align: justify;
+  line-height: 0.9;
+}
+
+li {
   font-size: 13px;
   color:Teal;
   border: 2px solid Teal;
@@ -25,6 +25,8 @@ header {
   align-items: center;
   padding: 0.5em;
   margin: 0.5em;
+  background-color: CornFlowerBlue;
+  border-bottom: 10px;
 }
 
 .logo {
@@ -36,8 +38,6 @@ header {
 .nav {
   display:flex;
   flex-wrap: nowrap;
-  background-color: CornFlowerBlue;
-  border-bottom: 10px;
 }
 
 .nav_links {
@@ -54,7 +54,7 @@ header {
 }
 
 .nav_links li a:hover {
-  color: SpringGreen;
+  color: DarkOrange;
 }
 
 p
