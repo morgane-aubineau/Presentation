@@ -6,13 +6,12 @@
   background-color: LightGrey;
   text-align: justify;
   line-height: 0.9;
+  text-decoration:none;
 }
 
-li {
-  font-size: 13px;
+li, a {
+  font-size: 16px;
   color:Teal;
-  border: 2px solid Teal;
-  border-radius: 20px;
   margin: 0.5em;
   text-decoration:none;
 }
@@ -22,7 +21,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 0;
   background-color: LightSlateGray;
   border-bottom: 10px;
   border-radius: 20px;
@@ -53,7 +52,7 @@ header {
 }
 
 .nav_links li a:hover {
-  color: DarkOrange;
+  color: MidnightBlue;
 }
 
 p
